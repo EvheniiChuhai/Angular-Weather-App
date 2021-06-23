@@ -1,0 +1,29 @@
+<div class="container">
+  <form action="#" class="hello">
+    <mat-form-field class="full-width">
+      <mat-label>Enter your city</mat-label>
+      <input class="city"
+             type="search"
+             matInput placeholder="Begin typing a city name"
+
+             value="" #cityN
+             [formControl]="citySearchControl"
+             [matAutocomplete]="auto">
+
+      <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+        <mat-option *ngFor="let option of cityNames " [value]="option">
+          {{option}}
+        </mat-option>
+      </mat-autocomplete>
+
+    </mat-form-field>
+    <a routerLink="/city/{{city}}">
+      <button mat-raised-button type="submit" color="accent" (click)="greet(cityN.value)">Submit</button>
+    </a>
+  </form>
+</div>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+

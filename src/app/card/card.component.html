@@ -1,0 +1,8 @@
+<a routerLink="/info/{{city}}">
+  <mat-card class="mat-elevation-z5">
+    <h2>Name: {{weather?.name}}</h2>
+    <p>Temperature: {{weather?.main.temp | toInteger}} <sup>o</sup>C</p>
+    <p>Humidity: {{weather?.main.humidity}}%</p>
+  </mat-card>
+</a>
+

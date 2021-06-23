@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+
+}
+
+mat-card {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 50px;
+  flex: 1 0 100px;
+  font-weight: bold;
+  font-size: 20px;
+}

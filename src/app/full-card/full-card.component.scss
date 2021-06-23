@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+}
+
+button {
+  margin-right: 30px;
+}
+
+mat-card {
+  min-width: 500px;
+}
+
+img {
+
+  height: 50px;
+  margin-left: 20px;
+}
+
+.weather {
+  display: flex;
+  align-items: center;
+}
+
+span {
+  font-size: larger;
+  font-weight: bold;
+}

@@ -1,0 +1,16 @@
+<div class="container">
+  <a routerLink="/">
+    <button mat-raised-button color="warn"><-Back</button>
+  </a>
+  <mat-card class="mat-elevation-z5">
+    <h1>City: {{weather?.name}}</h1>
+    <p>Wind: {{weather?.wind.speed}}m/s</p>
+    <p>Humidity: {{weather?.main.humidity}}%</p>
+    <p class="weather">
+      <span>Weather:</span>
+      <img src="/assets/{{weather?.weather[0].main}}.svg"
+           alt="weather:{{weather?.weather[0].main}}">
+    </p>
+  </mat-card>
+</div>
+
