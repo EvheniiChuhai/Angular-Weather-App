@@ -1,5 +1,5 @@
 import {Component, DoCheck, Input, OnChanges, OnInit} from '@angular/core';
-import {GetWeatherService} from "../get-weather.service";
+import {GetWeatherService} from "../services/get-weather.service";
 import {ActivatedRoute} from "@angular/router";
 
 @Component({

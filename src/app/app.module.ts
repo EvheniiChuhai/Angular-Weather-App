@@ -15,7 +15,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatListModule} from "@angular/material/list";
 import {MatAutocompleteModule} from "@angular/material/autocomplete";
 import {MatCardModule} from "@angular/material/card";
-import {ToIntegerPipe} from './to-integer.pipe';
+import {ToIntegerPipe} from './Pipes/to-integer.pipe';
 
 @NgModule({
   declarations: [

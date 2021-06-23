@@ -5,7 +5,7 @@ import {auditTime, debounceTime, distinctUntilChanged, map, pluck, switchMap, ta
 import {ajax} from "rxjs/ajax";
 
 import {HttpClient} from "@angular/common/http";
-import {CityService} from "../city.service";
+import {CityService} from "../services/city.service";
 import {FormControl} from "@angular/forms";
 
 
